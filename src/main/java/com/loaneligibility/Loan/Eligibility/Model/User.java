@@ -3,7 +3,7 @@ package com.loaneligibility.Loan.Eligibility.Model;
 import lombok.Getter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
+@Getter
 @Document(collation = "users")
 public class User {
     @Getter
